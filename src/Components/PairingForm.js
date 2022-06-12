@@ -40,7 +40,7 @@ const PairingForm = () => {
     return (
         <div aria-label="Game and Drink Pairing Section" className='loading-page-bottom'>
             <div className='circular-image'>
-                <img alt="Group of friends sitting at a table playing Jenga and drinking beers" src={require('../assets/games-drinks-friends.jpeg')} />
+                <img alt="Group of friends sitting at a table playing Jenga and drinking beers" src={require('../assets/anh1.png')} />
             </div>
             <form aria-label="Choose Your Game and Liquor" className='game-liquor-input pairing-form' data-cy='pairing-form' title='Game and Liquor Form'>
                 <label htmlFor='game-choice' data-cy='pairing-form' className='game-input' title='Game Input'>
@@ -57,8 +57,8 @@ const PairingForm = () => {
                           <option value='Rum' />
                           <option value='Whiskey' />
                           <option value='Bourbon' />
-                          <option value='Tequila' />
-                          <option value='Scotch' />
+                          {/* <option value='Tequila' />
+                          <option value='Scotch' /> */}
                       </datalist>
                 </label>
                     <button aria-label="Pair" className='pair-button' data-cy='pair-button' onClick={(event) => findRandomDrink(event)}><span>Pair</span></button>
