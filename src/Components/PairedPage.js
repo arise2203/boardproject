@@ -56,9 +56,9 @@ const PairedPage = () => {
                     </div>
                     <div aria-label="bottom button section" className='bottom-buttons'>
                         <Link to={'/'} style={{ textDecoration: 'none' }}>
-                            <button aria-label="Return to Main Page" className='return-button' onClick={() => {clearInputs()}}>Return to Main</button>
+                            <button aria-label="Return to Main Page" className='return-button' onClick={() => {clearInputs()}}> Main</button>
                         </Link>
-                        <button className='add-favorite-button' data-cy='favorites-button' onClick={() => { dispatch(addFavoriteDrink(currentDrink)) }}>Add Drink to Favorites!</button>
+                        <button className='add-favorite-button' data-cy='favorites-button' onClick={() => { dispatch(addFavoriteDrink(currentDrink)) }}>Add Drink to Heart</button>
                     </div>
                 </main>
             }

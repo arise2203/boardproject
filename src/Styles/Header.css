@@ -6,7 +6,7 @@
 }
 
 .heading-section {
-    background-color: white;
+    background-image: linear-gradient(180deg, #2980B9, #6DD5FA, #FFFFFF);
     flex-direction: column;
     height: 30%;
 }
@@ -27,10 +27,10 @@
 
 .cocktail-icon {
     height: 80px;
-    margin-left: 40px;;
+    margin-left: 40px;
+    ;
     width: 180px;
 }
-
 
 @media screen and (max-width: 1232px) {
     .title {
@@ -49,27 +49,22 @@
     .heading-section {
         height: 210px;
     }
-
     .title {
         font-size: 336%;
     }
-
     .slogan {
         font-size: 180%;
         margin-left: 14%;
     }
-
     .cocktail-icon {
         margin-left: 18px;
     }
-
 }
 
 @media screen and (max-width: 750px) {
     .title {
         font-size: 290%;
     }
-
     .slogan-icon {
         flex-direction: column;
         align-items: center;
@@ -85,20 +80,17 @@
         font-size: 296%;
         overflow-wrap: break-word;
     }
-
     .slogan {
         font-size: 180%;
         margin-left: 8%;
         overflow-wrap: break-word;
         width: 40%;
     }
-
     .slogan-icon {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-
     .cocktail-icon {
         margin-left: 0;
     }
@@ -109,7 +101,6 @@
         width: 120px;
         height: 60px;
     }
-
     .slogan-icon {
         align-items: flex-start;
     }
@@ -127,14 +118,12 @@
         width: 90px;
         height: 45px;
     }
-
     .slogan-icon {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
     }
-
     .slogan {
         font-size: 100%;
         margin-left: 6%;
@@ -146,25 +135,22 @@
 @media screen and (max-width: 400px) {
     .title {
         font-size: 260%;
-        margin:auto
+        margin: auto
     }
     .cocktail-icon {
         width: 90px;
         height: 45px;
     }
-
     .slogan-icon {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
     }
-
     .slogan {
         font-size: 120%;
         margin-left: 6%;
         overflow-wrap: break-word;
         width: 90%;
     }
-
 }
